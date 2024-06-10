@@ -17,23 +17,3 @@ export async function getWeatherNeo(city) {
 
 }
 
-/* export async function getCountryFlagNeo(weatherData) {
-    const URL = ``;
-
-    const flagContainer = document.getElementById("flag-container");
-
-    try { 
-        const response = await fetch(URL)
-        if(!response.ok) {
-            throw new Error('Erro ao carregar a bandeira');
-        }
-        let returnResponse = await response.blob();
-        const img = document.createElement('img')
-        img.src = URL.createObjectURL(returnResponse);
-        flagContainer.appendChild(img)
-    } 
-    catch(error){
-        console.log(`Fetch erro: ${error}`)
-        throw error
-    }
-} */
